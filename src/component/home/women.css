@@ -9,6 +9,12 @@ body {
   background: #d64304;
   align-items: center;
 }
+.abcd{
+  color: white;
+  font-family: cursive;
+  font-size: 24px;
+  font-weight: bold;
+}
 .nav-right button{
   all:unset;
 }
