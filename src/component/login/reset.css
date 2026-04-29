@@ -1,0 +1,77 @@
+
+.reset-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./assets/loginimage.jpg') no-repeat center center/cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.reset-card {
+  width: 360px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(18px);
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+
+.reset-title {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.reset-subtitle {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+
+.reset-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reset-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ff0000;  
+  border-radius: 12px;
+  outline: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.85);
+  box-sizing: border-box;
+  height: 45px;
+  transition: border 0.3s;
+}
+
+.reset-input:focus {
+  border-color: #6a5acd; 
+  box-shadow: 0 0 5px rgba(123, 104, 238, 0.7);
+}
+
+.reset-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(45deg, #6a5acd, #7b68ee);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reset-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #5a4ccc, #6b5de0);
+}

@@ -1,0 +1,63 @@
+.wel-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f09d38;
+}
+
+.wel-image {
+  width: 95%;
+  height: 95%;
+  padding: 40px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  text-align: center;
+  background-color: #f0e3c8;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.wel-image h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wel-image img {
+  width: 100%;
+  height: 60%;       
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.wel-image h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #46321a;
+  font-family: cursive;
+}
+
+.wel-image button {
+  width: 260px;
+  padding: 16px;
+  border: none;
+  border-radius: 30px;
+  background-color: #a4812a;
+  color: #ffffff;
+  cursor: -webkit-grab;
+  font-family: cursive;
+  font-size: xx-large;
+
+}
+
+.wel-image button:hover {
+  background-color: #d49ed4;
+}
